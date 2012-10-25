@@ -11,7 +11,7 @@ several canvas tags, only one canvas is used.
 How to Compile
 --------------
 
-Make sure you have TypeScript compiler installed [http://www.typescriptlang.org/] 
+Make sure you have TypeScript compiler installed [http://www.typescriptlang.org] 
 then run the following command:
 
     tsc src/canvaslayers.ts -out canvaslayers.js
@@ -20,15 +20,19 @@ then run the following command:
 Links
 -----
 
- * [BitBucket Page][1]
- * [Development Blog][2]
+ * [GitHub Page][1]
+ * [CanvasLayers BitBucket Page][2]
+ * [CanvasLayers Development Blog][3]
 
 
-Original Author
----------------
+Authors
+-------
 
-Written by Antony Dzeryn.  For more info, email me at <ant@simianzombie.com>.
+Written by Antony Dzeryn <ant@simianzombie.com>
+
+TypeScript port by Remerico Cruz <remerico@gmail.com>
 
 
-  [1]: http://bitbucket.org/ant512/canvaslayers
-  [2]: http://simianzombie.com
+  [1]: http://github.com/remerico/CanvasLayers.ts
+  [2]: http://bitbucket.org/ant512/canvaslayers
+  [3]: http://simianzombie.com
