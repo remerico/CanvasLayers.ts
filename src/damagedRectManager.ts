@@ -123,7 +123,7 @@ module CanvasLayers {
          * @param Layer The layer to redraw.
          * @param damagedRects An array of rectangles that must be redrawn.
          */
-		drawRects = function(layer, damagedRects) {
+		drawRects(layer, damagedRects) {
 
 	        if (!layer.isVisible()) return;
 	        if (damagedRects.length == 0) return;

@@ -68,7 +68,7 @@ module CanvasLayers {
 		 * layer).
 		 * @return The y co-ordinate of the layer relative to the top-level layer.
 		 */
-		getY() : number {
+		getY() : Number {
 	        if (this.parent != null) {
             	return this.rect.y + this.getParent().getY();
 	        }
